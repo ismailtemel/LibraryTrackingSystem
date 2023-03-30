@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace LibraryTracking.Core.Models
 {
-    public class Books
+    public class UserRefreshToken
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public string Writer { get; set; }
+        public string UserId { get; set; }
+        public string Code { get; set; }
+        public DateTime Expiration { get; set; }
     }
 }
