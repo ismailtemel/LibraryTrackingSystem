@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "TirjsfwbUFA3irCGp3Z0Nyl0Cvnj7dvK+jmEgjahx669z1plhVPbN3CsbEkP9uIYdfFrBxYguDs7Oj5M7zFfHw==",
+  "dgSpecHash": "feP8cLeGWbjrnY5ozDeWzxFlU12H71RqZRd+QtxhTU70PNG5pQbaC1PowMyTWifgA5YlWKI4nkPsGuKixV89hQ==",
   "success": true,
   "projectFilePath": "D:\\LibraryTrackingSystem\\LibraryTrackingSystem\\LibraryTrackingSystem.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,7 @@
     "C:\\Users\\ASUS\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.4\\microsoft.aspnetcore.authentication.jwtbearer.7.0.4.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.4\\microsoft.aspnetcore.cryptography.internal.7.0.4.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\7.0.4\\microsoft.aspnetcore.cryptography.keyderivation.7.0.4.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\7.0.4\\microsoft.aspnetcore.identity.entityframeworkcore.7.0.4.nupkg.sha512",

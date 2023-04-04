@@ -5,11 +5,13 @@ VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryTrackingSystem", "LibraryTrackingSystem\LibraryTrackingSystem.csproj", "{20530036-4245-4CD3-9025-EA4DEDA40685}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryTracking.Core", "LibraryTracking.Core\LibraryTracking.Core.csproj", "{A350E4EF-0EFF-4F12-B85A-CF91B0F7B70C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryTracking.Core", "LibraryTracking.Core\LibraryTracking.Core.csproj", "{A350E4EF-0EFF-4F12-B85A-CF91B0F7B70C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryTracking.Data", "LibraryTracking.Data\LibraryTracking.Data.csproj", "{2B7B1E06-CBE3-4F54-AE01-507434BADD0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryTracking.Data", "LibraryTracking.Data\LibraryTracking.Data.csproj", "{2B7B1E06-CBE3-4F54-AE01-507434BADD0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryTracking.Service", "LibraryTracking.Service\LibraryTracking.Service.csproj", "{E08D749D-F330-4229-BF97-47FBA8D30128}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryTracking.Service", "LibraryTracking.Service\LibraryTracking.Service.csproj", "{E08D749D-F330-4229-BF97-47FBA8D30128}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedLibrary", "SharedLibrary\SharedLibrary.csproj", "{2D744240-70EC-427D-9A83-4DED67B29897}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{E08D749D-F330-4229-BF97-47FBA8D30128}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E08D749D-F330-4229-BF97-47FBA8D30128}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E08D749D-F330-4229-BF97-47FBA8D30128}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D744240-70EC-427D-9A83-4DED67B29897}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D744240-70EC-427D-9A83-4DED67B29897}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D744240-70EC-427D-9A83-4DED67B29897}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D744240-70EC-427D-9A83-4DED67B29897}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

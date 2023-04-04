@@ -125,6 +125,25 @@
           }
         }
       },
+      "Microsoft.AspNetCore.Authentication.JwtBearer/7.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "6.15.1"
+        },
+        "compile": {
+          "lib/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Microsoft.AspNetCore.Cryptography.Internal/7.0.4": {
         "type": "package",
         "compile": {
@@ -1193,7 +1212,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.4"
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.4",
+          "SharedLibrary": "1.0.0"
         },
         "compile": {
           "bin/placeholder/LibraryTracking.Core.dll": {}
@@ -1215,6 +1235,19 @@
         },
         "runtime": {
           "bin/placeholder/LibraryTracking.Data.dll": {}
+        }
+      },
+      "SharedLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "7.0.4"
+        },
+        "compile": {
+          "bin/placeholder/SharedLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SharedLibrary.dll": {}
         }
       }
     }
@@ -1344,6 +1377,21 @@
         "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.xml",
         "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll",
         "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.xml"
+      ]
+    },
+    "Microsoft.AspNetCore.Authentication.JwtBearer/7.0.4": {
+      "sha512": "yMCO9yU1kNQ5MomCnGDNsjPyIvnxHu4U7AfRkLmzZuzCeOGGA5XiehmpfzzqlyIs8wbSR/c6jbuLexedfKgjgA==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authentication.jwtbearer/7.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll",
+        "lib/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.xml",
+        "microsoft.aspnetcore.authentication.jwtbearer.7.0.4.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.jwtbearer.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Cryptography.Internal/7.0.4": {
@@ -3550,6 +3598,11 @@
       "type": "project",
       "path": "../LibraryTracking.Data/LibraryTracking.Data.csproj",
       "msbuildProject": "../LibraryTracking.Data/LibraryTracking.Data.csproj"
+    },
+    "SharedLibrary/1.0.0": {
+      "type": "project",
+      "path": "../SharedLibrary/SharedLibrary.csproj",
+      "msbuildProject": "../SharedLibrary/SharedLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
