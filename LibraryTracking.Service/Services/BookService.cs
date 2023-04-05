@@ -1,16 +1,9 @@
 ﻿using AutoMapper;
 using LibraryTracking.Core.DTOs;
-using LibraryTracking.Core.Models;
 using LibraryTracking.Core.Repositories;
 using LibraryTracking.Core.Services;
 using LibraryTracking.Core.UnitOfWork;
-using Microsoft.IdentityModel.Tokens;
 using SharedLibrary.Dtos;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace LibraryTracking.Service.Services
 {

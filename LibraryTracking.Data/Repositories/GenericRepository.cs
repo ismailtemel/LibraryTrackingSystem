@@ -1,11 +1,6 @@
 ﻿using LibraryTracking.Core.Repositories;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace LibraryTracking.Data.Repositories
 {
@@ -16,7 +11,7 @@ namespace LibraryTracking.Data.Repositories
         public GenericRepository(AppDbContext context)
         {
             _context = context;
-            _dbSet= context.Set<T>();
+            _dbSet = context.Set<T>();
         }
         public async Task AddAsync(T entity)
         {

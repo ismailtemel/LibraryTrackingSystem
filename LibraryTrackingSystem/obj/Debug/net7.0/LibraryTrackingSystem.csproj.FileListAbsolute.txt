@@ -90,3 +90,9 @@ D:\LibraryTrackingSystem\LibraryTrackingSystem\obj\Debug\net7.0\refint\LibraryTr
 D:\LibraryTrackingSystem\LibraryTrackingSystem\obj\Debug\net7.0\LibraryTrackingSystem.pdb
 D:\LibraryTrackingSystem\LibraryTrackingSystem\obj\Debug\net7.0\LibraryTrackingSystem.genruntimeconfig.cache
 D:\LibraryTrackingSystem\LibraryTrackingSystem\obj\Debug\net7.0\ref\LibraryTrackingSystem.dll
+D:\LibraryTrackingSystem\LibraryTrackingSystem\obj\Debug\net7.0\LibraryTrackingSystem.MvcApplicationPartsAssemblyInfo.cs
+D:\LibraryTrackingSystem\LibraryTrackingSystem\bin\Debug\net7.0\Humanizer.dll
+D:\LibraryTrackingSystem\LibraryTrackingSystem\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\LibraryTrackingSystem\LibraryTrackingSystem\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\LibraryTrackingSystem\LibraryTrackingSystem\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\LibraryTrackingSystem\LibraryTrackingSystem\bin\Debug\net7.0\System.CodeDom.dll

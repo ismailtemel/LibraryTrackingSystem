@@ -6,14 +6,9 @@ using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using SharedLibrary;
 using SharedLibrary.Services;
-using System;
-using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
-using System.Linq;
 using System.Security.Claims;
 using System.Security.Cryptography;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace LibraryTracking.Service.Services
 {
@@ -67,10 +62,10 @@ namespace LibraryTracking.Service.Services
             SigningCredentials signingCredentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256Signature);
 
             JwtSecurityToken jwtSecurityToken = new JwtSecurityToken(
-                issuer: _tokenOption.Issuer, 
-                expires: accessTokenExpiration, 
-                notBefore: DateTime.Now, 
-                claims: GetClaims(user, _tokenOption.Audience).Result, 
+                issuer: _tokenOption.Issuer,
+                expires: accessTokenExpiration,
+                notBefore: DateTime.Now,
+                claims: GetClaims(user, _tokenOption.Audience).Result,
                 signingCredentials: signingCredentials);
 
             var handler = new JwtSecurityTokenHandler();

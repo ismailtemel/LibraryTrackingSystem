@@ -1,10 +1,9 @@
 ﻿using Autofac;
 using LibraryTracking.Core.Repositories;
-using LibraryTracking.Core.Services;
+using LibraryTracking.Core.UnitOfWork;
 using LibraryTracking.Data;
 using LibraryTracking.Data.Repositories;
 using LibraryTracking.Service.Mapping;
-using LibraryTracking.Service.Services;
 using System.Reflection;
 using Module = Autofac.Module;
 
@@ -17,7 +16,7 @@ namespace LibraryTrackingSystem.Modules
 
             builder.RegisterGeneric(typeof(GenericRepository<>)).As(typeof(IGenericRepository<>)).InstancePerLifetimeScope();
 
-            builder.RegisterType<UnitOfWork>().As<UnitOfWork>();
+            builder.RegisterType<UnitOfWork>().As<IUnitOfWork>();
 
             var apiAssembly = Assembly.GetExecutingAssembly();
             var repoAssembly = Assembly.GetAssembly(typeof(AppDbContext));

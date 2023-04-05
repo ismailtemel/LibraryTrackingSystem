@@ -3,14 +3,8 @@ using LibraryTracking.Core.DTOs;
 using LibraryTracking.Core.Models;
 using LibraryTracking.Core.Services;
 using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Identity;
 using SharedLibrary.Dtos;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace LibraryTracking.Service.Services
 {
@@ -57,7 +51,7 @@ namespace LibraryTracking.Service.Services
             return Response<NoDataDto>.Success(StatusCodes.Status201Created);
         }
 
-        public async Task<Response<UserDto>> GetUserByName(string userName)
+        public async Task<Response<UserDto>> GetUserByNameAsync(string userName)
         {
             var user = await _userManager.FindByNameAsync(userName);
 

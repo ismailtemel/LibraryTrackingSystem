@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "j3Kdd9GfKGM+Y3LJkGMJMPXguWzcx5xy8T8y1Zin/P8=",
-  "Source": "LibraryTrackingSystem",
-  "BasePath": "_content/LibraryTrackingSystem",
+  "Hash": "acI4Wmg1xjNm+bmFT9jvLwkXq5O3qzbcpgT3TtDVsCw=",
+  "Source": "LibraryTrackingSystem.API",
+  "BasePath": "_content/LibraryTrackingSystem.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

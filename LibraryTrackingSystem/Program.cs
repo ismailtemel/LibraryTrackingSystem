@@ -1,15 +1,17 @@
-using Autofac.Extensions.DependencyInjection;
 using Autofac;
+using Autofac.Extensions.DependencyInjection;
+using LibraryTracking.Core.Models;
+using LibraryTracking.Core.Services;
 using LibraryTracking.Data;
 using LibraryTracking.Service.Mapping;
-using LibraryTrackingSystem.Modules;
-using Microsoft.EntityFrameworkCore;
-using System.Reflection;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using SharedLibrary.Services;
-using SharedLibrary;
-using LibraryTracking.Core.Services;
 using LibraryTracking.Service.Services;
+using LibraryTrackingSystem.Modules;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using SharedLibrary;
+using SharedLibrary.Services;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -38,6 +40,13 @@ builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
 builder.Host.ConfigureContainer<ContainerBuilder>(containerBuilder => containerBuilder.RegisterModule(new ServiceModule()));
 #endregion
 
+builder.Services.AddIdentity<User, IdentityRole>(opt =>
+{
+    opt.User.RequireUniqueEmail = true;
+    opt.Password.RequireNonAlphanumeric = false;
+    opt.Password.RequireUppercase = false;
+
+}).AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
 builder.Services.AddAuthentication(opt =>
 {
     opt.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -66,6 +75,7 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
+    app.UseDeveloperExceptionPage();
     app.UseSwagger();
     app.UseSwaggerUI();
 }
