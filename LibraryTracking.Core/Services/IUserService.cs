@@ -12,6 +12,6 @@ namespace LibraryTracking.Core.Services
     {
         Task<Response<UserDto>> CreateUserAsync(CreateUserDto createUserDto);
         Task<Response<UserDto>> GetUserByName(string userName);
-        Task<Response<NoDataDto>> CreateUserRoles(string userName);
+        Task<Response<NoDataDto>> CreateUserRoles(string userName,string role);
     }
 }

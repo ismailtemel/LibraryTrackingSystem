@@ -9,7 +9,7 @@ namespace SharedLibrary.Dtos
 {
     public class Response<T> where T : class
     {
-        public T Data { get; private set; }
+        public T? Data { get; set; }
         public int StatusCode { get; private set; }
 
         [JsonIgnore]

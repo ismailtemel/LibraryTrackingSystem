@@ -1,0 +1,12 @@
+D:\LibraryTrackingSystem\SharedLibrary\bin\Debug\net7.0\SharedLibrary.deps.json
+D:\LibraryTrackingSystem\SharedLibrary\bin\Debug\net7.0\SharedLibrary.dll
+D:\LibraryTrackingSystem\SharedLibrary\bin\Debug\net7.0\SharedLibrary.pdb
+D:\LibraryTrackingSystem\SharedLibrary\obj\Debug\net7.0\SharedLibrary.csproj.AssemblyReference.cache
+D:\LibraryTrackingSystem\SharedLibrary\obj\Debug\net7.0\SharedLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\LibraryTrackingSystem\SharedLibrary\obj\Debug\net7.0\SharedLibrary.AssemblyInfoInputs.cache
+D:\LibraryTrackingSystem\SharedLibrary\obj\Debug\net7.0\SharedLibrary.AssemblyInfo.cs
+D:\LibraryTrackingSystem\SharedLibrary\obj\Debug\net7.0\SharedLibrary.csproj.CoreCompileInputs.cache
+D:\LibraryTrackingSystem\SharedLibrary\obj\Debug\net7.0\SharedLibrary.dll
+D:\LibraryTrackingSystem\SharedLibrary\obj\Debug\net7.0\refint\SharedLibrary.dll
+D:\LibraryTrackingSystem\SharedLibrary\obj\Debug\net7.0\SharedLibrary.pdb
+D:\LibraryTrackingSystem\SharedLibrary\obj\Debug\net7.0\ref\SharedLibrary.dll

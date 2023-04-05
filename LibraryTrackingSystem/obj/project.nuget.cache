@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "feP8cLeGWbjrnY5ozDeWzxFlU12H71RqZRd+QtxhTU70PNG5pQbaC1PowMyTWifgA5YlWKI4nkPsGuKixV89hQ==",
+  "dgSpecHash": "WY6OsZ+LwyFpsFkvgSJn+6Wd6VF3fsCb87BrQGQfeh1C5LfjmxtKW9uPfqw1bjIchuuW1sw0CE5LD01EL2LTpQ==",
   "success": true,
   "projectFilePath": "D:\\LibraryTrackingSystem\\LibraryTrackingSystem\\LibraryTrackingSystem.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ASUS\\.nuget\\packages\\autofac\\6.4.0\\autofac.6.4.0.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
